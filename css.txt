@@ -1,0 +1,195 @@
+color
+    color:
+        rgba()
+
+backgrounds
+    background-color:
+    opacity:
+        0~1
+    background-image:
+        url("")
+    background-repeat:
+        repeat-x/y,no-repeat
+    background-attachment:
+        fixed,scroll
+    background-position:
+        right/top
+    background:
+        all above
+
+boxes is content in padding in border in margin!!
+
+borders
+    border-style:
+        dotted,dashed,solid,double,groove,none,hidden
+    border-width:
+        px
+    border-color:
+    border(-top/left/right/bottom):
+        all above
+    border-radius:
+        px
+
+margins
+    margin(-top/left/right/bottom):
+        px,auto
+
+padding
+    padding(-top/left/right/bottom):
+        px
+
+height and width
+    height/width:
+        auto,px,%,initial,inherit
+    max/min-width/height:
+        px,%
+
+outline
+    outline-width:
+    outline-style:
+        dotted,dashed,solid,double,groove,none,hidden
+    outline-color:
+    outline:
+        all above
+    outline-offset:
+        px
+
+text
+    text-align:
+        center,left,right,justify
+    direction:
+        rtl
+    uniclde-bidi:
+        bidi-override
+    certical-allign:
+        top,middle,bottom
+    text-decoration:
+        none,overline,line-through,underline
+    text-transform:
+        uppercase,lowercase,capitalize
+    text-indent:
+        px
+    letter-spacing:
+        px
+    line-height:
+    word-spacing:
+        px
+    white-space:
+        nowrap
+    text-shadow:
+        px px px color
+
+font
+    font-family:
+    font-style:
+        normal,italic,oblique
+    font-weight:
+        normal,bold
+    font-sizse:
+        px,em,%,vw
+    font-style:
+        all above
+link
+    :link
+    :visited
+    :hover
+    :active
+
+list
+    list-style-type:
+        circle,square,upper-roman,none
+    list-style-position:
+        outside,inside
+    list-style-image:
+        url("")
+    list-style:
+        all above
+
+table
+    border:
+    width/height:
+    border-collapse:
+        collapse
+    text-align:
+    vertical-align:
+    padding:
+    border-bottom:
+    :hover
+    overflow-x:
+        auto
+
+display
+    display:
+        block,inline,inline-block,none
+    visibility:
+        hedden
+
+position
+    position:
+        static,relative,fixed,absolute,sticky
+    z-index:
+
+overflow
+    overflow(-x/y):
+        visible,hidden,scroll,auto
+
+float
+    float:
+        left,right,none,inherit
+    overflow:
+        auto
+
+clear(unallow float)
+    clear:
+        none,left,right,both,inherit
+
+align
+    margin:
+        auto
+    text-align:
+        cinter
+    display:
+        block
+    position:
+        absolute
+    float:
+    overflow:
+        auto
+    padding:
+    linght:
+
+combinators
+    div p{}
+    div>p{}
+    div~p{}
+    div+p{}
+
+pserdo-classes
+    :link{}
+    :visited{}
+    :hover{}
+    :active{}
+    :first-child{}
+    :lang(){}
+    :focus(){}
+
+image sprites
+    background:
+     url("") px px
+
+selector
+    css[attribute="value"]{}
+    css[attribute~="value"]{}
+    css[attribute|="value"]{}
+    css[attribute^="value"]{}
+    css[attribute$="value"]{}
+    css[attribute*="value"]{}
+
+counter
+    counter-increment:
+    counter-reset:
+
+
+
+
+

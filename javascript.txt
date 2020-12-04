@@ -1,0 +1,240 @@
+document.getElementById("")
+<script src=""></script>
+output
+    innerHTML
+    document.write()
+    window.alert()
+    console.log()
+    window.print()
+
+var
+    var
+    let
+    const
+
+comment
+    //
+    /* */
+
+operator
+    **= pow
+    ===
+    !==
+    typeof
+    instanceof
+
+data type
+    number
+    string
+    object
+    boolean
+    undefined
+
+function
+    function name() {return}
+    name()
+object
+    var name={type1:,type2:};
+    name.type1
+    this
+    new string()/
+
+event
+    <element event ="some js">
+    onclick="this.innerHTML=Date()"
+    onchange
+    onclick
+    onmouseover
+    onmouseout
+    onkeydown
+    onload
+
+string
+    var l=txt.length;
+    \'='
+    \"="
+    \\=\
+    \b,f,n,r,t,v
+    var str=new String("")
+    indexOf("")
+    lastIndexOf("")
+    ("",num)
+    search("")
+    slice(start,end)
+    substring(start,end)
+    substr(start,length)
+    replace("","")
+    /which you want change/i ingore uppercase and lowercase
+    /which you want change/g change all
+    toUpperCase()
+    toLowerCase()
+    concat("",text2)
+    trim() clear the space from both side
+    padStart(,)
+    padEnd(,)
+    charAt(num) returns str[num]
+    charCodeAt(num) returns str[num] code
+    str[num] only read
+    split(",") split str by ,
+
+num
+    123e5=12300000
+    123e-5=0.00123
+    x=num/str will be NaN
+    isNaN(x) will return true
+    Infinity your num too bi
+    0x at head mean hexadeximal
+    toString(num) it will because base on num
+
+number methods
+    toString() it will because string
+    toExoibebtial()
+    toFixed()
+    toPrecision()
+    valueOf()
+    Number() return a num
+    parseInt() return a N
+    parseFloat() return the first num
+    MAX_VALUE
+    MIN_VALUE
+    Number.POSITIVE_INFINITY
+    Number.NaN
+
+array
+    var array_name=[item1,item2,item3]
+    array_name[]
+    length
+    forEach()
+    array_name[array_name.length]=
+    var array_name=[]
+    toString() let array become a string
+    join(" ") let array become a  string and spilt by " "
+    pop() delete the last element in array
+    var x=array_name.pop() x equal to what we delete
+    push() add item at the last pos
+    var x=array_name.push() x equal to the length after we add
+    shift() delete the first item and let others pos-1
+    var x=array_name.shift() x equal to what we delete
+    unshift() add item at first and others pos+1
+    var x=array_name.unshift() x equal to the length after we add
+    delete array_name[num]
+    splice(num,num2,item) add item at the num and delete the num2'item
+    var x=array_name.splice() x equal to what we delete
+    concat() merge two array
+    slece(num,num2) build a new array from the num pos to num2
+    sort() arrange array by letter
+    reverse() inverse the pos
+    Math.max.apply(null,[1,2,3])=Math.max(1,2,3)
+    map() not change old array not change NaN
+    filter() find all item which meet the requirement
+    reduce() do on all item and make only return
+    reduceRight() from another side
+    every() whether all item meet the requirement
+    some() whether any item meet the requirement
+    indexOf() the first item meet the target
+    lastIndexOf() the last item meet the target
+    find() the first item meet the requirement
+    findIndex() the pos of find()
+
+date
+    new Date()
+    new Date(year,month,day,hours,minutes,seconds,milliseconds)
+    new Date(num) 1970/1/1 +num milliseconds
+    toDateString()
+    toISOString()
+    ISO=YYYY-MM-DDTHH:MM:SSZ T and Z is no mean
+    shortDate=MM/DD/YYYY
+    longDate=MMM DD YYYY
+    Date.parse() return the time to 1970/1/1 milliseconds
+
+get date
+    getFullYear() get the YYYY
+    getMonth() get the month 0~11
+    getDate() get the day 0~31
+    getHours() get the hour 0~23
+    getMinutes() minute 0~59
+    getSeconds() second 0~59
+    getTime() milliseconds since January 1,1970
+    getDay() get the weekday 0~6
+    Date.now()
+    getUTC....
+
+math
+    Math.PI
+    Math.round(num) round it
+    Math.pow(a,b) a^b
+    Math.sqrt()
+    Math.abs()
+    Math.ceil() 上高斯
+    Math.floor() 下高斯
+    Math.sin()
+    Math.cos()
+    Math.min()
+    Math.max()
+    Math.random() return 0~1
+    Math.floor(Math.random()*n) return a random integer from 1 to 100
+
+boolean
+    everything with a value is true
+    everything without a value is false
+
+loop
+    if/swich/for/while/break/continue
+        same the c++
+    for (x in object) from 0 to n-1
+    for (x of object) from object[0] to object[n-1]
+    break labelname
+    continue labelname
+
+type change
+    data type
+        string/number/boolen/object/function
+    object
+        object/Date/Array/String/Number/Boolen
+    no value
+        null/undefined
+    typeof return type
+    consturctor return function
+    myArray.constructor===Array
+    string(x)=x.toString()
+    Number(x)
+
+regular expressions
+    search() return the pos
+    replace()
+    /  /i not care uppercase and lowercase
+    /  /g find all match
+    /  /m multiline matching
+    match()
+        [abc]/[0-4]/(x|y|z)
+    \d find digit
+    \s find whitespace
+    n+ find all string contain at least one n
+    n* find all string contain at least one letter in n
+    n? find all string contain at least one letter and no more than n
+    str.test(x) x whether contain str
+    exec()
+
+error
+    try{}
+    catch(){} if try error do catch
+    finally{} no matter what it would execution
+    throw set error messenge by myself
+    error name
+        evalerror/rangeerror/referenceerror/
+        syntaxerror/typeerror/urierror
+    cstch(x)
+        x cout all error messenger
+        x.name cout error name
+        x.messenge cout error contain
+
+hoisting
+    var can use before declare
+    let/const can't use before declare
+    all can't get value before initialize
+
+strict mode
+    "use strict";
+
+
+

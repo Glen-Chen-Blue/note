@@ -1,0 +1,24 @@
+git init
+git configgit add name
+git add .
+git rm --cached name
+git statusgit commit -m"    "
+git log
+git log --oneline
+git remote add origin httpl://github.com/Glen-Chen-Blue/name.git
+git remote -v
+git branch -M main
+git push -u origin main
+git push
+git pull
+git clone
+.gitignore
+*.cpp
+git checkout -b name
+git checkout main
+git status
+git log --oneline
+git merge name
+git branch -d name
+git checkout 1234567
+
